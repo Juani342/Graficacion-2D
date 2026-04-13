@@ -23,7 +23,7 @@ const restartBtn = document.getElementById('restartBtn');
 
 // --- SISTEMA DE CARGA DE ASSETS ---
 const backgroundImg = new Image();
-backgroundImg.src = 'assets/img/background.jpg';
+backgroundImg.src = './assets/img/background.jpg';
 
 // El juego solo arranca cuando la imagen carga o da error
 backgroundImg.onload = () => { startSystem(); };
